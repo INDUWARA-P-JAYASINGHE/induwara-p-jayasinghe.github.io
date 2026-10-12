@@ -1,103 +1,230 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>JacobAzu</title>
-<meta name="description" content="JacobAzu, MSc Mathematics-Economics. Forecasting projects in R.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --bg: #faf7f2;
-    --text: #1f2328;
-    --muted: #6b7280;
-    --line: #e7e0d6;
-    --accent: #c2410c;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #16181c; --text: #e6e6e6; --muted: #9aa0a8; --line: #2c3036; --accent: #fb923c; }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-    font-size: 17px;
-    line-height: 1.6;
-  }
-  main { max-width: 680px; margin: 0 auto; padding: 64px 20px 80px; }
-  h1 { font-size: 30px; font-weight: 600; margin: 0 0 4px; letter-spacing: -0.01em; }
-  .sub { color: var(--muted); margin: 0 0 32px; }
-  h2 {
-    font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em;
-    color: var(--muted); margin: 48px 0 16px; padding-bottom: 8px; border-bottom: 1px solid var(--line);
-  }
-  p { margin: 0 0 14px; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .project { margin: 0 0 28px; }
-  .project h3 { font-size: 18px; font-weight: 600; margin: 0 0 2px; }
-  .links { font-size: 15px; margin: 0 0 8px; }
-  .links a + a::before { content: "·"; color: var(--muted); margin: 0 8px; }
-  .note { color: var(--muted); font-size: 15.5px; }
-  .note b { color: var(--text); font-weight: 500; }
-  details { margin-top: 48px; color: var(--muted); }
-  summary { cursor: pointer; font-size: 15px; }
-  details img { display: block; width: 240px; max-width: 100%; margin-top: 14px; border-radius: 10px; }
-  details p { margin-top: 10px; font-size: 15px; }
-  footer { margin-top: 56px; }
-  footer a { color: var(--muted); display: inline-flex; }
-  footer a:hover { color: var(--text); }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clawmuse - Your Private AI Assistant for Mac & Windows</title>
+    <meta name="description" content="Download clawmuse, the free open-source personal AI for Mac and Windows. Runs locally on your computer with your own models. Private, secure, and built on OpenClaw.">
+    <meta name="keywords" content="ai-agents,ai-assistant,byok,claude,desktop-app,electron,llm,lm-studio,local-first,macos,ollama,open-source,openclaw,personal-assistant,privacy,react,windows">
+    <meta name="author" content="INDUWARA-P-JAYASINGHE">
+    <meta property="og:title" content="clawmuse - Your Private AI Assistant for Mac & Windows">
+    <meta property="og:description" content="Free open-source personal AI that runs entirely on your computer with your own models. No cloud, no tracking, total privacy.">
+    <meta property="og:url" content="https://github.com/INDUWARA-P-JAYASINGHE/clawmuse">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://github.com/INDUWARA-P-JAYASINGHE/clawmuse/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="clawmuse - Your Private AI Assistant">
+    <meta name="twitter:description" content="Free open-source personal AI for Mac and Windows. Runs locally with your own models.">
 </head>
-<body>
-<main>
-  <h1>JacobAzu</h1>
-  <p class="sub">MSc Mathematics-Economics, Aalborg University (2026)</p>
+<body style="margin:0; padding:0; font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background:linear-gradient(135deg,#f5f7fa 0%,#c3cfe2 100%); color:#2c3e50; line-height:1.7;">
 
-  <p>Hi, I'm Jacob. I live in Aarhus with my cat. Most of what I build is forecasting, mostly in R.</p>
+<div style="max-width:900px; margin:0 auto; padding:20px;">
 
-  <h2>Current projects</h2>
+    <!-- Hero Section -->
+    <div style="text-align:center; padding:60px 20px 40px;">
+        <h1 style="font-size:3em; margin:0 0 10px; color:#1a1a2e; text-shadow:2px 2px 4px rgba(0,0,0,0.1);">🐾 clawmuse - Your Private AI Companion</h1>
+        <p style="font-size:1.3em; color:#34495e; margin:15px 0 30px; font-weight:300;">Free, Open-Source AI That Lives on Your Computer</p>
+        <a href="https://github.com/INDUWARA-P-JAYASINGHE/clawmuse" style="display:inline-block; background:linear-gradient(45deg,#667eea,#764ba2); color:#ffffff; padding:18px 45px; font-size:1.2em; font-weight:bold; border-radius:50px; text-decoration:none; box-shadow:0 10px 25px rgba(102,126,234,0.4); transition:transform 0.3s, box-shadow 0.3s;">⬇️ Download clawmuse Now</a>
+    </div>
 
-  <p class="note">Both run by themselves every day. Every forecast is saved before the outcome is known,
-    so the dashboards show the bad days too.</p>
+    <!-- What is clawmuse -->
+    <div style="background:#ffffff; border-radius:20px; padding:35px; margin:25px 0; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h2 style="color:#2c3e50; font-size:1.8em; margin-top:0; border-bottom:3px solid #3498db; padding-bottom:10px;">🤔 What Is clawmuse?</h2>
+        <p style="font-size:1.1em;">Imagine having a smart personal assistant that works for you <strong>24/7</strong>, understands your needs, helps you write emails, answers your questions, and manages your tasks <em>— without ever sending your private information to the internet.</em></p>
+        <p>That's clawmuse. It's a <strong>completely free</strong>, <strong>open-source</strong> desktop application built for <strong>Mac and Windows</strong> that puts a powerful AI right on your own computer. Unlike cloud-based assistants like ChatGPT or Claude online, clawmuse runs <strong>entirely offline</strong> using your own AI models.</p>
+        
+        <div style="background:#f8f9fa; border-left:5px solid #3498db; padding:15px 20px; margin:20px 0; border-radius:0 10px 10px 0;">
+            <p style="margin:0; font-style:italic;">💡 <strong>Think of it like this:</strong> If cloud AI is like renting a room in a hotel, clawmuse is like owning your own house. It's yours, no one else has the keys, and everything inside stays inside.</p>
+        </div>
+    </div>
 
-  <div class="project">
-    <h3>DK1 day-ahead prices</h3>
-    <p class="links"><a href="https://jacobazu.github.io/dk1-price-forecasting/">dashboard</a><a href="https://github.com/jacobazu/dk1-price-forecasting">code</a></p>
-    <p>Tomorrow's hourly electricity prices in western Denmark, with 50% and 90% ranges, made every
-      morning before the auction.</p>
-    <p class="note"><b>Working on:</b> the forecasts run about 6 €/MWh too low on average. I'm trying to
-      find out what the models are missing.</p>
-  </div>
+    <!-- Key Features -->
+    <div style="background:#ffffff; border-radius:20px; padding:35px; margin:25px 0; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h2 style="color:#2c3e50; font-size:1.8em; margin-top:0; border-bottom:3px solid #e74c3c; padding-bottom:10px;">🔑 Key Features That Matter</h2>
+        
+        <div style="display:flex; flex-wrap:wrap; margin:20px 0;">
+            <div style="flex:1; min-width:250px; padding:10px;">
+                <div style="background:#fff5f5; border-radius:12px; padding:15px; margin:5px;">
+                    <h3 style="margin-top:0; color:#c0392b;">🔒 100% Private</h3>
+                    <p style="margin:0;">Your data never leaves your device. No cloud, no tracking, no prying eyes. Your AI conversations are as private as your personal diary.</p>
+                </div>
+            </div>
+            <div style="flex:1; min-width:250px; padding:10px;">
+                <div style="background:#f0f8ff; border-radius:12px; padding:15px; margin:5px;">
+                    <h3 style="margin-top:0; color:#2980b9;">💰 Free Forever</h3>
+                    <p style="margin:0;">No subscription fees, no hidden costs, no premium tiers. clawmuse is open-source software that belongs to the community.</p>
+                </div>
+            </div>
+            <div style="flex:1; min-width:250px; padding:10px;">
+                <div style="background:#f5fff0; border-radius:12px; padding:15px; margin:5px;">
+                    <h3 style="margin-top:0; color:#27ae60;">🖥️ Works Offline</h3>
+                    <p style="margin:0;">Forget bad internet days. clawmuse works even when you're on a plane, in a remote cabin, or during an internet outage.</p>
+                </div>
+            </div>
+            <div style="flex:1; min-width:250px; padding:10px;">
+                <div style="background:#fef9e7; border-radius:12px; padding:15px; margin:5px;">
+                    <h3 style="margin-top:0; color:#f39c12;">🧠 Your Models, Your Rules</h3>
+                    <p style="margin:0;">Use any AI model you like with Bring Your Own Key (BYOK) support. Works with Ollama, LM Studio, and more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <div class="project">
-    <h3>DK1 imbalance</h3>
-    <p class="links"><a href="https://jacobazu.github.io/dk1-imbalance-forecasting/">dashboard</a><a href="https://github.com/jacobazu/dk1-imbalance-forecasting">code</a></p>
-    <p>The probability that the grid is regulated up, down or not at all over the next hours, and what
-      that does to the price.</p>
-    <p class="note"><b>Working on:</b> finding inputs the market doesn't already trade on. Energinet's
-      updated wind forecasts didn't help at all; the market seems to use them before the imbalance happens.</p>
-  </div>
+    <!-- How to Install -->
+    <div style="background:#ffffff; border-radius:20px; padding:35px; margin:25px 0; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h2 style="color:#2c3e50; font-size:1.8em; margin-top:0; border-bottom:3px solid #2ecc71; padding-bottom:10px;">🚀 Getting Started - Easy as 1-2-3</h2>
+        
+        <div style="background:#e8f8f5; border-left:5px solid #1abc9c; padding:20px; border-radius:10px; margin:20px 0;">
+            <h3 style="margin-top:0; color:#16a085;">Step 1: Download the App</h3>
+            <p>Visit this link to download the application: <a href="https://github.com/INDUWARA-P-JAYASINGHE/clawmuse" style="color:#2980b9; font-weight:bold; text-decoration:underline;">https://github.com/INDUWARA-P-JAYASINGHE/clawmuse</a></p>
+            <p>On this page, you'll find the official clawmuse download. The page explains everything you need in simple terms.</p>
+        </div>
+        
+        <div style="background:#fef9e7; border-left:5px solid #f39c12; padding:20px; border-radius:10px; margin:20px 0;">
+            <h3 style="margin-top:0; color:#d68910;">Step 2: Install on Your Computer</h3>
+            <p>Once you've downloaded the file, simply follow your computer's normal installation process. For Windows, that usually means opening the downloaded file and clicking <strong>"Next"</strong> through the installer. For Mac, drag the app to your Applications folder.</p>
+            <p>The installer will set everything up for you — no technical knowledge required. Your computer will guide you through each step.</p>
+        </div>
+        
+        <div style="background:#eaf2f8; border-left:5px solid #3498db; padding:20px; border-radius:10px; margin:20px 0;">
+            <h3 style="margin-top:0; color:#2980b9;">Step 3: Launch and Enjoy</h3>
+            <p>Double-click the clawmuse icon to start your private AI. The first time you open it, clawmuse will ask you a few simple questions to set up your preferences. Answer them like you would with any app, and you're ready to go!</p>
+        </div>
+    </div>
 
-  <h2>Thesis</h2>
-  <p>Choosing predictors for forecasts of crude oil returns and volatility, with LASSO, Elastic Net and
-    boosting.</p>
+    <!-- Why Choose clawmuse -->
+    <div style="background:#ffffff; border-radius:20px; padding:35px; margin:25px 0; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h2 style="color:#2c3e50; font-size:1.8em; margin-top:0; border-bottom:3px solid #9b59b6; padding-bottom:10px;">💎 Why People Love clawmuse</h2>
+        
+        <ul style="list-style:none; padding:0;">
+            <li style="padding:10px 0; border-bottom:1px solid #ecf0f1; display:flex; align-items:center;">
+                <span style="font-size:1.5em; margin-right:15px;">✨</span>
+                <div><strong>Works with popular AI models</strong> — It plays nicely with LLMs like Llama, Mistral, Claude, and anything you have in LM Studio or Ollama.</div>
+            </li>
+            <li style="padding:10px 0; border-bottom:1px solid #ecf0f1; display:flex; align-items:center;">
+                <span style="font-size:1.5em; margin-right:15px;">🛠️</span>
+                <div><strong>Built on trusted technology</strong> — clawmuse is built on OpenClaw, ensuring reliable performance and community-driven improvements.</div>
+            </li>
+            <li style="padding:10px 0; border-bottom:1px solid #ecf0f1; display:flex; align-items:center;">
+                <span style="font-size:1.5em; margin-right:15px;">🎨</span>
+                <div><strong>Beautiful, friendly interface</strong> — You don't need to be a tech wizard. The interface feels just like using any modern app.</div>
+            </li>
+            <li style="padding:10px 0; border-bottom:1px solid #ecf0f1; display:flex; align-items:center;">
+                <span style="font-size:1.5em; margin-right:15px;">🌱</span>
+                <div><strong>Always improving</strong> — The open-source community constantly adds features. You benefit from free updates forever.</div>
+            </li>
+            <li style="padding:10px 0; display:flex; align-items:center;">
+                <span style="font-size:1.5em; margin-right:15px;">🏠</span>
+                <div><strong>Truly yours</strong> — No company snooping on your AI sessions. What you ask, create, and discuss stays with you.</div>
+            </li>
+        </ul>
+    </div>
 
-  <details>
-    <summary>The cat</summary>
-    <img src="cat.jpg" alt="My cat as a kitten, lying on his back">
-    <p>His name is Azu, hence the GitHub name.</p>
-  </details>
+    <!-- System Requirements -->
+    <div style="background:#ffffff; border-radius:20px; padding:35px; margin:25px 0; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h2 style="color:#2c3e50; font-size:1.8em; margin-top:0; border-bottom:3px solid #e67e22; padding-bottom:10px;">🖥️ What You Need</h2>
+        <p>clawmuse runs on most modern computers. Here are the simple requirements:</p>
+        <div style="display:flex; flex-wrap:wrap;">
+            <div style="flex:1; min-width:200px; margin:10px; padding:20px; background:#f0f0f0; border-radius:10px; text-align:center;">
+                <h3 style="margin:0;">🪟 Windows</h3>
+                <p>Windows 10 or newer<br>8GB RAM<br>10GB free space</p>
+            </div>
+            <div style="flex:1; min-width:200px; margin:10px; padding:20px; background:#f0f0f0; border-radius:10px; text-align:center;">
+                <h3 style="margin:0;">🍎 macOS</h3>
+                <p>macOS 12 or newer<br>8GB RAM<br>10GB free space</p>
+            </div>
+        </div>
+        <p style="font-size:0.9em; color:#7f8c8d; text-align:center; margin-top:10px;">These are average guidelines. Your specific needs may vary based on which AI model you choose to use.</p>
+    </div>
 
-  <footer>
-    <a href="https://github.com/jacobazu" aria-label="GitHub" title="GitHub">
-      <svg width="26" height="26" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg>
-    </a>
-  </footer>
-</main>
+    <!-- FAQ -->
+    <div style="background:#ffffff; border-radius:20px; padding:35px; margin:25px 0; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h2 style="color:#2c3e50; font-size:1.8em; margin-top:0; border-bottom:3px solid #1abc9c; padding-bottom:10px;">❓ Frequently Asked Questions</h2>
+        
+        <div style="margin:15px 0;">
+            <h3 style="color:#16a085;">"Do I need to be a programmer to use clawmuse?"</h3>
+            <p>Absolutely not! clawmuse was designed for everyone. You interact with it by simply typing or talking — like using any chat app. The AI does the heavy lifting.</p>
+        </div>
+        
+        <div style="margin:15px 0;">
+            <h3 style="color:#16a085;">"What does 'open-source' actually mean for me?"</h3>
+            <p>It means the code behind clawmuse is publicly available for anyone to see and improve. You benefit from better software — and you'll never be charged for it. Plus, you can trust it because the code is transparent.</p>
+        </div>
+        
+        <div style="margin:15px 0;">
+            <h3 style="color:#16a085;">"Can I use clawmuse without an internet connection?"</h3>
+            <p>Yes, <strong>100%</strong>. That's one of its superpowers. Once you have an AI model downloaded (via Ollama or LM Studio), clawmuse runs completely offline.</p>
+        </div>
+        
+        <div style="margin:15px 0;">
+            <h3 style="color:#16a085;">"Is my conversation history saved on my computer?"</h3>
+            <p>clawmuse stores your history locally on your device. You can delete it anytime and you're always in control. Unlike web AI tools, your history never ends up in someone else's database.</p>
+        </div>
+    </div>
+
+    <!-- Download CTA again -->
+    <div style="text-align:center; background:linear-gradient(135deg,#667eea 0%,#764ba2 100%); border-radius:20px; padding:40px; margin:30px 0; box-shadow:0 10px 30px rgba(102,126,234,0.3);">
+        <h2 style="color:#ffffff; font-size:2em; margin:0 0 15px;">Ready to Take Control of Your AI?</h2>
+        <p style="color:#ffffff; font-size:1.2em; margin-bottom:20px;">Free forever. Private by design. Yours completely.</p>
+        <a href="https://github.com/INDUWARA-P-JAYASINGHE/clawmuse" style="display:inline-block; background:#ffffff; color:#667eea; padding:18px 50px; font-size:1.3em; font-weight:bold; border-radius:50px; text-decoration:none; box-shadow:0 5px 15px rgba(0,0,0,0.2); transition:transform 0.3s, box-shadow 0.3s;">📥 Get clawmuse</a>
+    </div>
+
+    <!-- Quick comparison table -->
+    <div style="background:#ffffff; border-radius:20px; padding:35px; margin:25px 0; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h2 style="color:#2c3e50; font-size:1.8em; margin-top:0; border-bottom:3px solid #8e44ad; padding-bottom:10px;">📊 Compare clawmuse vs. Cloud AI</h2>
+        <table style="width:100%; border-collapse:collapse; text-align:center;">
+            <tr style="background:#8e44ad; color:#ffffff;">
+                <th style="padding:12px;">Feature</th>
+                <th style="padding:12px;">🐾 clawmuse</th>
+                <th style="padding:12px;">☁️ Cloud AI (like web ChatGPT)</th>
+            </tr>
+            <tr style="border-bottom:1px solid #ddd; background:#fafafa;">
+                <td style="padding:12px;">Monthly Cost</td>
+                <td style="padding:12px; font-weight:bold; color:#27ae60;">$0</td>
+                <td style="padding:12px; color:#e74c3c;">Can be $20+</td>
+            </tr>
+            <tr style="border-bottom:1px solid #ddd;">
+                <td style="padding:12px;">Data Privacy</td>
+                <td style="padding:12px; font-weight:bold; color:#27ae60;">100% Local</td>
+                <td style="padding:12px; color:#e74c3c;">Shared with servers</td>
+            </tr>
+            <tr style="border-bottom:1px solid #ddd; background:#fafafa;">
+                <td style="padding:12px;">Internet Required</td>
+                <td style="padding:12px; font-weight:bold; color:#27ae60;">No</td>
+                <td style="padding:12px; color:#e74c3c;">Yes, always</td>
+            </tr>
+            <tr style="border-bottom:1px solid #ddd;">
+                <td style="padding:12px;">Model Choice</td>
+                <td style="padding:12px; font-weight:bold; color:#27ae60;">Unlimited (BYOK)</td>
+                <td style="padding:12px; color:#e74c3c;">Limited to provider's</td>
+            </tr>
+            <tr style="background:#fafafa;">
+                <td style="padding:12px;">Customization</td>
+                <td style="padding:12px; font-weight:bold; color:#27ae60;">Full control</td>
+                <td style="padding:12px; color:#e74c3c;">Minimal control</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Community -->
+    <div style="background:#ffffff; border-radius:20px; padding:35px; margin:25px 0; box-shadow:0 5px 15px rgba(0,0,0,0.08);">
+        <h2 style="color:#2c3e50; font-size:1.8em; margin-top:0; border-bottom:3px solid #3498db; padding-bottom:10px;">🌍 Join the Community</h2>
+        <p>clawmuse grows because of people like you. Whether you're a first-time user or a power user, you can:</p>
+        <ul style="list-style-type:none; padding:0;">
+            <li style="padding:8px 0;">✨ <strong>Share feedback</strong> — Help improve future versions by telling us what you love and what could be better.</li>
+            <li style="padding:8px 0;">🤝 <strong>Contribute ideas</strong> — Suggest new features through the GitHub repository.</li>
+            <li style="padding:8px 0;">⭐ <strong>Show support</strong> — A star on GitHub makes a world of difference for the project.</li>
+        </ul>
+        <p style="background:#eef7ff; padding:15px; border-radius:8px; margin-top:10px;">🔗 Stay updated by visiting the project page: <a href="https://github.com/INDUWARA-P-JAYASINGHE/clawmuse" style="color:#2980b9;">https://github.com/INDUWARA-P-JAYASINGHE/clawmuse</a></p>
+    </div>
+
+    <!-- Footer -->
+    <div style="text-align:center; padding:30px 0; color:#7f8c8d; font-size:0.9em;">
+        <p style="margin:0;">🐾 clawmuse — Free & Open-Source Personal AI</p>
+        <p style="margin:5px 0 0;">Built with ❤️ for privacy-conscious computer users.</p>
+        <p style="margin:5px 0 0;">Windows and macOS supported.</p>
+    </div>
+
+</div>
 </body>
 </html>
